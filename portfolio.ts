@@ -14,7 +14,7 @@ import {
 export const greetings: GreetingsType = {
   title: "Hi all, I'm Nhat Long",
   description:
-    "I'm a Full-Stack Web Developer with Spring Boot, ReactJs, MySql and Redis. " +
+    "I'm a Full-Stack Web Developer with Spring Boot, NestJS, .Net, ReactJs, MySql and Redis. " +
     "I'm a self-motivated and hardworking individual who is always ready to learn new things " +
     "and work in a team.\n\n" +
     "Email: longs3515@gmail.com \n" +
@@ -52,6 +52,14 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:java",
         },
         {
+          skillName: "dotNet",
+          iconifyTag: "logos:c-sharp"
+        },
+        {
+          skillName: "NestJS",
+          iconifyTag: "vscode-icons:file-type-light-next",
+        },
+        {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
@@ -59,10 +67,7 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Reactjs",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
-        {
-          skillName: "NestJS",
-          iconifyTag: "vscode-icons:file-type-light-next",
-        },
+
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
@@ -71,6 +76,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Docker",
           iconifyTag: "logos:docker-icon",
         },
+        {
+          skillName: "Redis",
+          iconifyTag: "logos:redis"
+        }
       ],
     },
   ],
@@ -85,6 +94,11 @@ export const educationInfo: EducationType[] = [
   {
     schoolName: "CodeGym Da Nang",
     grade: "86/100",
+    descBullets: [],
+  },
+  {
+    schoolName: "CEFR British Council",
+    grade: "433/599",
     descBullets: [],
   },
   {
@@ -103,9 +117,10 @@ export const projects: ProjectType[] = [
     link: "https://project-quiz-frontend.vercel.app/",
   },
   {
-    name: "Rent_Yard",
-    desc: "A web-based platform designed to simplify the process of searching and booking sports yards (such as football pitches or tennis courts).",
-    github: "https://github.com/DoanNhatLong/project_rent_yard/tree/main/project_rent_yard",
+    name: "OCR Document",
+    desc: "A web application for managing and processing accounting documents. Integrated OCR capabilities to extract invoice data automatically and streamline accounting workflows. "
+      ,
+    github: "https://github.com/DoanNhatLong/practice_.net/tree/main/projectCs",
   }
 ];
 
